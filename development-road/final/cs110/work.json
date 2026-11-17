@@ -1,21 +1,26 @@
 {
   "schema": "final-road-work-v1",
+  "payloadVersion": 2,
   "course": "CS110",
   "name": "nicolas uribe valles ismael",
   "work": {
-    "project": "A story worth playing",
+    "project": "No Tomorrow",
+    "projectDescription": "NO TOMORROW is a short cinematic 3D story about a young boy who discovers that a meteor will destroy the world tomorrow. He spends his final day with his family before facing an uncertain future. I will build the game independently using Unity and C#. The project will include a playable main character, character movement, a 3D environment, simple interactions, cinematic camera movements, and a dramatic ending. My goal is to create a short but emotional gaming experience that tells a complete story through visuals and gameplay.",
     "path": "story",
     "selected": [
-      "save"
+      "save",
+      "branch"
     ],
     "engine": "Unity / C#",
-    "gitEvidence": "",
-    "ai": "",
-    "aiVerify": "",
-    "notes": "",
+    "environmentTest": true,
+    "gitEvidence": "I opened my Unity project in Visual Studio, reviewed my C# scripts, and made changes to my project. I saved my work and used Git to commit and push my changes to my GitHub repository. I then opened GitHub to verify that my latest files and commit were uploaded successfully.",
+    "ai": "ChatGpt",
+    "aiVerify": "i will run and inspect the codes down to every detail",
+    "notes": "I can contribute by creating characters, writing C# scripts, designing simple game mechanics, testing gameplay, and troubleshooting errors. I can use Unity and Visual Studio to build and improve projects. I am continuing to develop my programming skills and can use AI tools to help solve problems and understand code.",
     "plan": "",
     "availability": "",
     "service": "",
+    "supportMode": "closed",
     "role": "Developer",
     "board": {
       "nodes": [],
@@ -30,7 +35,52 @@
       "questions": ""
     },
     "evidence": {},
+    "dailyDraft": {
+      "meeting": "",
+      "worked": "",
+      "next": "",
+      "blocker": "",
+      "evidence": ""
+    },
+    "requirements": [
+      {
+        "id": "core",
+        "code": "R01",
+        "title": "Working project foundation",
+        "evidence": "Working source and build (60); authored program logic (35); meaningful tests (20); run guide and evidence map (20); individual explanation (15)."
+      },
+      {
+        "id": "save",
+        "code": "R02",
+        "title": "Save and restore progress",
+        "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
+      },
+      {
+        "id": "branch",
+        "code": "R03",
+        "title": "Branching story or mission state",
+        "evidence": "Demonstrate at least two meaningful outcomes, their conditions and a state-transition test."
+      }
+    ],
     "tasks": [],
     "dailyNotes": []
-  }
+  },
+  "team": {
+    "name": "No Tomorrow",
+    "mode": "solo",
+    "project": "No Tomorrow",
+    "projectRepo": "",
+    "members": [
+      {
+        "name": "nicolas uribe valles ismael",
+        "role": "Developer"
+      }
+    ]
+  },
+  "sharedPlan": {
+    "goal": "",
+    "plan": "",
+    "tasks": []
+  },
+  "completedReports": []
 }
