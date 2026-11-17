@@ -18,7 +18,7 @@
     "ai": "ChatGpt",
     "aiVerify": "i will run and inspect the codes down to every detail",
     "notes": "I can contribute by creating characters, writing C# scripts, designing simple game mechanics, testing gameplay, and troubleshooting errors. I can use Unity and Visual Studio to build and improve projects. I am continuing to develop my programming skills and can use AI tools to help solve problems and understand code.",
-    "plan": "",
+    "plan": "I chose a playable story because I want to create an emotional cinematic gaming experience. I will use Unity and C# because they allow me to build 3D environments, character movement, animations, and interactions. My production sequence will follow planning, gathering resources, building, testing, backing up with GitHub, and delivering the final game.",
     "availability": "",
     "service": "",
     "supportMode": "closed",
@@ -119,17 +119,17 @@
       "strokes": []
     },
     "huddle": {
-      "stage": 2,
+      "stage": 1,
       "returned": true,
-      "goal": "",
-      "personal": "",
-      "questions": ""
+      "goal": "Create a playable 3D scene in Unity where a young boy can move through an environment, interact with his surroundings, and experience the beginning of a cinematic story about an approaching meteor.",
+      "personal": "As the solo developer, I will be responsible for designing the game, creating characters and environments, programming gameplay mechanics, testing the project, and fixing errors. I understand the production pipeline as a series of steps that take my original idea and turn it into a completed playable game. I will use ChatGPT to help me understand code and troubleshoot problems while developing my skills in Unity and C#.",
+      "questions": "Some challenges I may face include character movement, animations, camera controls, scripting errors, and creating cinematic scenes. I will test the gameplay regularly, check that all interactions work correctly, and use GitHub to back up my progress. I also need to make sure the final game runs smoothly and communicates the story clearly."
     },
     "evidence": {},
     "dailyDraft": {
-      "meeting": "",
-      "worked": "",
-      "next": "",
+      "meeting": "CS110-2026-11-17",
+      "worked": "Today I worked on planning my solo game project, NO TOMORROW. I selected the playable story concept, created my production pipeline, identified the tools and resources I will use, and outlined the development stages. I also started setting up my Unity project and preparing to connect it to GitHub.",
+      "next": "My next step is to finish setting up my Unity project and connect it to my GitHub repository. After that, I will create my first playable scene, add the main character, program basic movement using C#, and begin building the game environment.",
       "blocker": "",
       "evidence": ""
     },
@@ -159,7 +159,41 @@
         "evidence": "Demonstrate keyboard access, readable contrast, clear feedback and one user-tested accessibility improvement."
       }
     ],
-    "tasks": [],
+    "tasks": [
+      {
+        "id": "node-ecb3870b-c12d-4a10-9c77-3e0fa0de4944",
+        "title": "The Man",
+        "owner": "nicolas uribe valles ismael",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "everything",
+        "nodeId": "ecb3870b-c12d-4a10-9c77-3e0fa0de4944",
+        "dependsOn": []
+      },
+      {
+        "id": "4c8ace5e-3436-4ae7-bbde-577333d12497",
+        "title": "",
+        "owner": "nicolas uribe valles ismael",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "",
+        "nodeId": "",
+        "dependsOn": []
+      },
+      {
+        "id": "bce8314b-af0c-4549-9066-68d29a258349",
+        "title": "",
+        "owner": "nicolas uribe valles ismael",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "",
+        "nodeId": "",
+        "dependsOn": []
+      }
+    ],
     "dailyNotes": []
   },
   "team": {
