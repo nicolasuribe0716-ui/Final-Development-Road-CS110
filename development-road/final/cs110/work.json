@@ -24,13 +24,26 @@
     "supportMode": "closed",
     "role": "Developer",
     "board": {
-      "nodes": [],
+      "nodes": [
+        {
+          "id": "081ecf4c-7972-4666-beef-fd1be4675b6c",
+          "kind": "text",
+          "x": 0,
+          "y": 99.39244292003605,
+          "w": 150,
+          "h": 70,
+          "text": "Name this blo",
+          "owner": "",
+          "due": "",
+          "description": ""
+        }
+      ],
       "edges": [],
       "strokes": []
     },
     "huddle": {
-      "stage": 0,
-      "returned": false,
+      "stage": 1,
+      "returned": true,
       "goal": "",
       "personal": "",
       "questions": ""
