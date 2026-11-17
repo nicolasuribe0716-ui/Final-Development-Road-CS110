@@ -26,23 +26,100 @@
     "board": {
       "nodes": [
         {
-          "id": "081ecf4c-7972-4666-beef-fd1be4675b6c",
-          "kind": "text",
-          "x": 0,
-          "y": 99.39244292003605,
+          "id": "ecb3870b-c12d-4a10-9c77-3e0fa0de4944",
+          "kind": "box",
+          "x": 782.2230473713398,
+          "y": 275.9267974258594,
           "w": 150,
           "h": 70,
-          "text": "Name this blo",
+          "text": "Name this block",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "5ce880d8-dc90-4fc7-bc54-25ccc5c66208",
+          "kind": "box",
+          "x": 69.6255455403159,
+          "y": 255.50247209122813,
+          "w": 150,
+          "h": 70,
+          "text": "Goal: working project",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "dc50058a-0644-4e66-8f89-0bd13125fe80",
+          "kind": "box",
+          "x": 232.22239110204373,
+          "y": 153.33333383003855,
+          "w": 150,
+          "h": 70,
+          "text": "Inputs: code + assets",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "cef1fbaf-5cc0-43a9-880b-9667dcc444b8",
+          "kind": "box",
+          "x": 416.66666616996145,
+          "y": 89.44440445966325,
+          "w": 150,
+          "h": 70,
+          "text": "Build: core interaction",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "2b6812b2-7995-429f-b6ff-4e56a82530b2",
+          "kind": "box",
+          "x": 590,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Test: expected behavior",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "2ee7bf68-02b8-4112-88ae-d85c72e7dfee",
+          "kind": "box",
+          "x": 780,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Deliver: source + evidence",
           "owner": "",
           "due": "",
           "description": ""
         }
       ],
-      "edges": [],
+      "edges": [
+        {
+          "from": "5ce880d8-dc90-4fc7-bc54-25ccc5c66208",
+          "to": "dc50058a-0644-4e66-8f89-0bd13125fe80"
+        },
+        {
+          "from": "dc50058a-0644-4e66-8f89-0bd13125fe80",
+          "to": "cef1fbaf-5cc0-43a9-880b-9667dcc444b8"
+        },
+        {
+          "from": "cef1fbaf-5cc0-43a9-880b-9667dcc444b8",
+          "to": "2b6812b2-7995-429f-b6ff-4e56a82530b2"
+        },
+        {
+          "from": "2b6812b2-7995-429f-b6ff-4e56a82530b2",
+          "to": "2ee7bf68-02b8-4112-88ae-d85c72e7dfee"
+        }
+      ],
       "strokes": []
     },
     "huddle": {
-      "stage": 1,
+      "stage": 2,
       "returned": true,
       "goal": "",
       "personal": "",
